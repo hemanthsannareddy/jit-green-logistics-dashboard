@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "+TuVTVSAcdnoh48K4+GnSQGFOC3aKLLg9SQ88cQZB6Q=",
+  "Source": "dotnet-predictor",
+  "BasePath": "_content/dotnet-predictor",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
