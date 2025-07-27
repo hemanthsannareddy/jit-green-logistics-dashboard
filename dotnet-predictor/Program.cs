@@ -17,13 +17,6 @@ var predictionEngine = mlContext.Model.CreatePredictionEngine<ModelInput, ModelO
 // Register the prediction engine for DI
 builder.Services.AddSingleton(predictionEngine);
 
-var app = builder.Build();
-
-// Configure middleware
-app.UseRouting();         // ✅ Added back explicitly
-app.UseHttpsRedirection();
-app.UseAuthorization();
-
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
@@ -33,6 +26,13 @@ builder.Services.AddCors(options =>
               .AllowAnyHeader();
     });
 });
+
+var app = builder.Build();
+
+// Configure middleware
+app.UseRouting();         // ✅ Added back explicitly
+app.UseHttpsRedirection();
+app.UseAuthorization();
 
 app.UseCors("AllowAll"); // must be before app.UseAuthorization()
 

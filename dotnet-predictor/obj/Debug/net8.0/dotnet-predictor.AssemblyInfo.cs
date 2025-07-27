@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dotnet-predictor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e685eff984ae6380a0ff078dfdc1c9f8da3b899")]
 [assembly: System.Reflection.AssemblyProductAttribute("dotnet-predictor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dotnet-predictor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
